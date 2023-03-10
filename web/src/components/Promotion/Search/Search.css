@@ -1,0 +1,64 @@
+.promotion-search {
+  /* height: 100vh; */
+  min-height: fit-content;
+
+}
+
+.promotion-search__container {
+  padding: 40px 200px;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2021_08/2711606/190110-runner-exercise-sneaker-ac-529p.jpg');
+}
+.promotion-search__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.promotion-search__header h1 {
+  text-transform: uppercase;
+  background-color: rgba(150, 8, 8, 0.15);
+  border-radius: 10px;
+  color: rgb(159, 159, 163);
+  padding: 5px;
+}
+
+.promotion-search__input {
+  display: flex;
+  height: 42px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  font-size: 16px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+.secondary-container {
+  padding-top: 20px;
+  display: flex;
+  height: 100%;
+}
+
+.secondary-container-new {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.load__button {
+  margin: auto;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent
+}
+
+.load__button:focus,
+.load__button:hover {
+  background-color: antiquewhite;
+  border: 1px solid goldenrod;
+  border-radius: 2px;
+}

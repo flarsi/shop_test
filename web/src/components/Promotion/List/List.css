@@ -1,0 +1,23 @@
+.promotion-list  {
+  margin-bottom: 20px;
+}
+
+.promotion-list {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+
+
+}
+
+.promotion-card {
+  width: 100%;
+}
+
+
+@media screen and (min-width: 720px) {
+  .promotion-card {
+    width: calc((100% ) / 2.5);}
+}

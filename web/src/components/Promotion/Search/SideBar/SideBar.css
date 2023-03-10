@@ -1,0 +1,56 @@
+.searchparams {
+    padding: 10px;
+    max-width: 15%;
+    text-align: center;
+}
+
+.searchparams__color,
+.searchparams__price {
+    /* background-color: rgba(243, 234, 115, 0.2); */
+    background-color: rgba(146, 142, 189, 0.2);
+
+
+    padding: 5px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+
+}
+
+.searchparams__color-list {
+    margin-left: 5px;
+}
+
+.searchparams__color-item {
+    list-style: none;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.searchparams__color-item button {
+    width: 80%;
+}
+
+.searchparams__text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul {
+    padding: 0;
+}
+
+.searchparams__use {
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchparams__input {
+    padding: 3px;
+    border-radius: 3px;
+    max-width: 40%;
+}
